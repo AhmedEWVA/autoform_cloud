@@ -30,7 +30,6 @@ with open(pkl_filename, 'rb') as file:
     scaler = pickle.load(file)
 
 example_input = [36,27.4,7.4,2.6,7.6,34.7,0.5,2.1,25.0,1.6,2.3,69.9,0.7,3.4,4.1,1.9,0.4,0.4,1.3]
-
 #[GP, MIN,PTS,GM,FGA,FGP,three_P_Made,three_PA,three_PP,FTM,FTA,FTP,OREB,DREB,REB,AST,STL,BLK,TOV]
 
 @app.route('/search', methods=['GET'])
