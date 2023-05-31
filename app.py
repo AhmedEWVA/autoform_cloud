@@ -44,5 +44,4 @@ def search():
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True, port=8001)
 
-
 #http://127.0.0.1:8001/search?GP=36&MIN=27.4&PTS=7.4&GM=2.7&FGA=7.6&FGP=34.7&three_P_Made=0.5&three_PA=2.1&three_PP=52&FTM=7&FTA=2&FTP=3&OREB=4&DREB=5&REB=6&ST=7&STL=5&BLK=2&TOV=4
