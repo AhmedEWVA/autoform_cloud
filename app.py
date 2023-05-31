@@ -41,7 +41,7 @@ def search():
     input_data = scaler.transform(np.array(example_input).reshape(1,-1))
     prediction_value = model.predict(input_data)
     #prediction_value = model.predict(input_data)
-    return {"prediction ": prediction_value.tolist()}
+    return {"prediction ": prediction_value.tolist(), "input ": input_data.tolist()}
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True, port=8001)
